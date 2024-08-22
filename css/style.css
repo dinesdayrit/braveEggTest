@@ -146,6 +146,39 @@
   font-weight: 700;
   font-family: "Philadelphian-Gothic", sans-serif;
 }
+
+.email-and-sms {
+  background-image: url("../images/emailAndSmsbg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 10;
+  position: relative !important;
+  width: 100%;
+}
+
+.email-and-sms h1 {
+  color: #4528b6;
+  font-weight: 700;
+  font-family: "Philadelphian-Gothic", sans-serif;
+}
+
+.email-and-sms p {
+  font-family: "Dhyana", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #4528b6;
+  width: 80%;
+}
+
+.card-title {
+  color: #4528b6 !important;
+}
+
 @media (min-width: 992px) {
   .navbar {
     padding: 0rem 10rem !important;
