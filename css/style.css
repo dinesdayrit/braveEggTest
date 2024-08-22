@@ -129,6 +129,8 @@
   align-items: center;
   justify-content: center;
   align-items: flex-start;
+  height: 100%;
+  overflow: auto;
 }
 .successStories h1 {
   color: white;
@@ -137,6 +139,12 @@
 .successStories p {
   color: white;
   font-family: "Dhyana", sans-serif;
+}
+
+.tech-partners h1 {
+  color: #4528b6;
+  font-weight: 700;
+  font-family: "Philadelphian-Gothic", sans-serif;
 }
 @media (min-width: 992px) {
   .navbar {
@@ -160,7 +168,7 @@
 
 @media (max-width: 576px) {
   .card-img-top {
-    width: 80%;
+    width: 50%;
     height: auto;
   }
 }

@@ -7,6 +7,7 @@ $(document).ready(function () {
     initializeCards();
   });
   $("#success-stories-section").load("html/successStories.html");
+  $("#tech-partners-section").load("html/partners.html");
 
   // Function to initialize the card group
   function initializeCards() {
