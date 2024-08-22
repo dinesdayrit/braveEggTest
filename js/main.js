@@ -9,6 +9,7 @@ $(document).ready(function () {
   $("#success-stories-section").load("html/successStories.html");
   $("#tech-partners-section").load("html/partners.html");
   $("#email-sms-section").load("html/emailAndSms.html");
+  $("#our-process-section").load("html/process.html");
   // Function to initialize the card group
   function initializeCards() {
     const cardData = [

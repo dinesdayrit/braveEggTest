@@ -104,10 +104,6 @@
   pointer-events: none;
 }
 
-.hero2 img {
-  padding: 1rem;
-}
-
 .card {
   background: linear-gradient(#f3f2f8, #e4e1ee);
 }
@@ -123,13 +119,13 @@
 
 .successStories {
   background-image: url("../images/successStoriesBG.png");
+  background-color: #f5f5f293;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   align-items: flex-start;
-  height: 100%;
   overflow: auto;
 }
 .successStories h1 {
@@ -141,6 +137,10 @@
   font-family: "Dhyana", sans-serif;
 }
 
+.tech-partners {
+  background-color: #f5f5f293;
+}
+
 .tech-partners h1 {
   color: #4528b6;
   font-weight: 700;
@@ -150,7 +150,7 @@
 .email-and-sms {
   background-image: url("../images/emailAndSmsbg.png");
   background-size: cover;
-  background-position: center;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,6 +179,40 @@
   color: #4528b6 !important;
 }
 
+.process-section {
+  background-image: url("../images/process.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.process-section h1 {
+  color: #f5f5f5;
+  font-weight: 700;
+  font-family: "Philadelphian-Gothic", sans-serif;
+}
+
+.process-section p {
+  font-family: "Dhyana", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f5f5f5;
+}
+.process-section .card {
+  background: #29147b !important;
+}
+
+.process-section .card-title {
+  color: #f5f5f5 !important;
+}
+
+.process-section .card-text {
+  color: #f5f5f5 !important;
+  margin-top: 1rem;
+  font-size: smaller;
+}
 @media (min-width: 992px) {
   .navbar {
     padding: 0rem 10rem !important;
