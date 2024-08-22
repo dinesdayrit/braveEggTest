@@ -123,10 +123,10 @@
 
 .successStories {
   background-image: url("../images/successStoriesBG.png");
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
+  align-items: center;
   justify-content: center;
   align-items: flex-start;
 }
@@ -155,5 +155,12 @@
     font-weight: 700;
     text-align: left;
     padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    width: 80%;
+    height: auto;
   }
 }
