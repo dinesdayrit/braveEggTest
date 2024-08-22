@@ -262,9 +262,16 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 758px) {
   .card-img-top {
     width: 50%;
     height: auto;
+  }
+
+  .successStories h1,
+  .successStories p {
+    color: #4528b6;
+    font-family: "Philadelphian-Gothic", sans-serif;
+    font-weight: bold;
   }
 }
