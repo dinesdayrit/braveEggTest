@@ -82,10 +82,11 @@
 }
 
 .hero2 {
+  width: 100%;
   background-image: url("../images/heroimgbg.svg");
   background-size: cover;
-  display: flex;
-  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .image::after {
