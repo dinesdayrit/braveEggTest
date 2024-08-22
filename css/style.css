@@ -213,6 +213,14 @@
   margin-top: 1rem;
   font-size: smaller;
 }
+
+.process-section button {
+  background-color: #ffffff;
+  color: #4528b6;
+  font-size: larger;
+  font-weight: 600;
+  font-family: "poppins", sans-serif;
+}
 @media (min-width: 992px) {
   .navbar {
     padding: 0rem 10rem !important;
