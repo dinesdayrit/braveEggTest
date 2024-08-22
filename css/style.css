@@ -104,7 +104,9 @@
 
   pointer-events: none;
 }
-
+.tech-partners {
+  background-color: #f5f5f293;
+}
 .card {
   background: linear-gradient(#f3f2f8, #e4e1ee);
 }
@@ -122,6 +124,7 @@
   background-image: url("../images/successStoriesBG3.png");
   background-color: #f5f5f293;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
