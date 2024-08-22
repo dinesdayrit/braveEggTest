@@ -226,6 +226,28 @@
     padding: 0rem 10rem !important;
   }
 }
+.faq-section h1 {
+  color: #4528b6;
+  font-weight: 700;
+  font-family: "Philadelphian-Gothic", sans-serif;
+}
+
+.faq-section .card-title {
+  color: #4528b6;
+  font-weight: 700;
+  font-family: "Philadelphian-Gothic", sans-serif;
+}
+
+.faq-section .card-text {
+  color: #4528b6;
+  font-weight: 700;
+  font-family: "Philadelphian-Gothic", sans-serif;
+}
+.footer {
+  background-color: #131212;
+  height: 50vh;
+  width: 100%;
+}
 
 @media (max-width: 991.98px) {
   .navbar {
@@ -236,7 +258,7 @@
     font-family: "Dhyana", sans-serif;
     font-size: 1rem;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     padding: 10px;
   }
 }
