@@ -11,6 +11,7 @@ $(document).ready(function () {
   $("#email-sms-section").load("html/emailAndSms.html");
   $("#our-process-section").load("html/process.html");
   $("#faq-section").load("html/faq.html");
+  $("#footer-section").load("html/footer.html");
   // Function to initialize the card group
   function initializeCards() {
     const cardData = [
