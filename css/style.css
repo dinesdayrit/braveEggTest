@@ -353,3 +353,21 @@
     padding: 10rem;
   }
 }
+
+/* Define the pop-up animation */
+@keyframes popUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation */
+.pop-up {
+  opacity: 0; /* Start invisible */
+  animation: popUp 1s ease-out forwards; /* Ensure it remains visible after animation */
+}
