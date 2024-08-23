@@ -243,6 +243,67 @@
   font-weight: 600;
   font-family: "poppins", sans-serif;
 }
+
+.faq-section {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-button.custom-accordion-button {
+  background: linear-gradient(#f3f2f8, #e4e1ee);
+  font-size: 16px;
+  padding: 1rem;
+  border: none;
+  box-shadow: transparent !important;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-button.custom-accordion-button .accordion-button-text {
+  font-family: "Dhyana", sans-serif;
+  font-size: 1rem;
+  color: #4528b6;
+  font-weight: bolder;
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-icon {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.custom-accordion-button.collapsed .accordion-icon::before {
+  content: "+";
+  color: #29147b;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.custom-accordion-button:not(.collapsed) .accordion-icon::before {
+  content: "-";
+  color: #29147b;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.accordion-body {
+  padding: 15px;
+  background: linear-gradient(#f3f2f8, #e4e1ee);
+  font-family: "Dhyana", sans-serif;
+  font-size: 16px;
+  color: #4528b6;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 @media (min-width: 992px) {
   .navbar {
     padding: 0rem 10rem !important;
