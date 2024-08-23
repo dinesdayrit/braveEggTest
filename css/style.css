@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Philadelphian Gothic";
+  src: url("/fonts/philadelphian_gothic/Philadelphian-Gothic.ttf")
+      format("truetype"),
+    url("/fonts/philadelphian_gothic/Philadelphian-Gothic.otf")
+      format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .navbar {
   transition: background-color 0.3s ease;
 }
@@ -70,16 +80,15 @@
 
 .hero h1 {
   color: #131212;
-  font-weight: 700;
-  font-family: "Philadelphian-Gothic", sans-serif;
+  font-weight: bolder;
+  font-family: "Philadelphian Gothic", sans-serif;
 }
 
 .hero h2 {
   margin-top: 10rem;
-  font-size: 1.5rem;
   color: #4528b6;
-  font-weight: 700;
-  font-family: "Philadelphian-Gothic", sans-serif;
+  font-weight: bolder;
+  font-family: "Philadelphian Gothic", sans-serif;
 }
 
 .hero p {
