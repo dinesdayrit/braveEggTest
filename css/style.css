@@ -8,7 +8,13 @@
 
 .navbar-brand img {
   height: 63px;
-  width: 100px;
+  width: 130px;
+  transition: height 0.3s ease, width 0.3s ease;
+}
+
+.navbar.scrolled .navbar-brand img {
+  height: 63px;
+  width: 90px;
 }
 
 .nav-link {
