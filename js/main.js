@@ -1,6 +1,5 @@
 $(document).ready(function () {
   // Load different sections of the page
-  $("#navigation").load("html/navigation.html");
   $("#hero-section").load("html/hero.html");
   $("#brands-section").load("html/brands.html", function () {
     // Once the brands section is loaded, initialize the cards

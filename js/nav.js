@@ -7,10 +7,27 @@ $(document).ready(function () {
     if ($(window).scrollTop() > 56) {
       // Adjust the scroll value as needed
       $navbar.addClass("scrolled");
-      console.log("scrolling");
     } else {
       $navbar.removeClass("scrolled");
-      console.log("not scrolling");
     }
+  });
+
+  // Add smooth scrolling to nav links
+  $(".nav-link").on("click", function (event) {
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Get the target section from data attribute
+    var target = $(this).data("target");
+    var $target = $(target);
+
+    // Animate scroll
+    $("html, body").stop().animate(
+      {
+        scrollTop: $target.offset().top,
+      },
+      500,
+      "swing"
+    );
   });
 });

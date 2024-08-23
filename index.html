@@ -29,7 +29,49 @@
   </head>
   <body>
     <!-- Navigation -->
-    <div id="navigation"></div>
+    <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" data-target="#success-stories-section"
+                >CASE STUDIES</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-target="#success-stories-section"
+                >WHAT WE DO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-target="#our-process-section"
+                >OUR PROCESS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-target="#faq-section">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <button class="custom-button">INCREASE MY REVENUE</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- Hero Section -->
     <div id="hero-section"></div>
@@ -62,6 +104,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/main.js"></script>
+    <script src="js/nav.js"></script>
     <script src="js/loadSections.js"></script>
   </body>
 </html>

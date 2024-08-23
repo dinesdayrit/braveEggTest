@@ -33,6 +33,7 @@
   color: #131212 !important;
   font-family: "Dhyana", sans-serif;
   font-size: 0.9rem !important;
+  cursor: pointer;
 }
 
 .custom-button {
@@ -165,7 +166,7 @@
 .tech-partners h1 {
   color: #4528b6;
   font-weight: 700;
-  font-family: "Philadelphian-Gothic", sans-serif;
+  font-family: "Philadelphian Gothic", sans-serif;
 }
 
 .email-and-sms {
@@ -185,7 +186,7 @@
 .email-and-sms h1 {
   color: #4528b6;
   font-weight: 700;
-  font-family: "Philadelphian-Gothic", sans-serif;
+  font-family: "Philadelphian Gothic", sans-serif;
 }
 
 .email-and-sms p {
@@ -250,18 +251,18 @@
 .faq-section h1 {
   color: #4528b6;
   font-weight: 700;
-  font-family: "Philadelphian-Gothic", sans-serif;
+  font-family: "Philadelphian Gothic", sans-serif;
 }
 
 .faq-section .card-title {
   color: #4528b6;
   font-weight: 700;
-  font-family: "Philadelphian-Gothic", sans-serif;
+  font-family: "Philadelphian Gothic", sans-serif;
 }
 
 .faq-section .card-text {
   color: #4528b6;
-  font-family: "Philadelphian-Gothic", sans-serif;
+  font-family: "Philadelphian Gothic", sans-serif;
 }
 .footer {
   background-color: #131212;
@@ -288,7 +289,7 @@
   .successStories h1,
   .successStories p {
     color: #4528b6;
-    font-family: "Philadelphian-Gothic", sans-serif;
+    font-family: "Philadelphian Gothic", sans-serif;
     font-weight: bold;
   }
 }
