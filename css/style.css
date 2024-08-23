@@ -1,8 +1,9 @@
 .navbar {
-  background: transparent !important;
-  position: absolute !important;
-  z-index: 1000;
-  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: white !important;
 }
 
 .navbar-brand img {
