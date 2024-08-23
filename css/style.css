@@ -211,7 +211,12 @@
 }
 
 .process-section {
-  background-image: url("../images/processBG2.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(247, 247, 248, 0) 90%,
+      rgba(255, 255, 255, 0.999) 100%
+    ),
+    url("../images/processBG2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -256,10 +261,12 @@
 }
 
 .faq-section {
-  max-width: 1000px;
   margin: auto;
 }
 
+.accordion {
+  max-width: 1000px;
+}
 .accordion-item {
   border: none !important;
 }
