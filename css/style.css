@@ -149,6 +149,7 @@
   align-items: center;
   justify-content: center;
   align-items: flex-start;
+  padding: 5rem;
 }
 .successStories h1 {
   color: white;
@@ -345,12 +346,5 @@
   .card-img-top {
     width: 50%;
     height: auto;
-  }
-
-  .successStories h1,
-  .successStories p {
-    color: #4528b6;
-    font-family: "Philadelphian Gothic", sans-serif;
-    font-weight: bold;
   }
 }
