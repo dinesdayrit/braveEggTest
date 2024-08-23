@@ -360,7 +360,7 @@
   }
 }
 
-@media (max-width: 758px) {
+@media (max-width: 768px) {
   .card-img-top {
     width: 50%;
     height: auto;
