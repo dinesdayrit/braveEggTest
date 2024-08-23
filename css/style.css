@@ -369,6 +369,10 @@
   .successStories {
     padding: 10rem;
   }
+
+  .process-section {
+    padding: 12rem 0;
+  }
 }
 
 /* Define the pop-up animation */
