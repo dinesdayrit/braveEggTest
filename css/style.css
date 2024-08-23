@@ -240,6 +240,8 @@
 }
 .process-section .card {
   background: #29147b !important;
+  border-radius: 20px;
+  border: none;
 }
 
 .process-section .card-title {
