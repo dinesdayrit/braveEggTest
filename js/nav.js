@@ -1,33 +1,35 @@
 $(document).ready(function () {
-  // Cache the navbar element
+  // Cache the navbar and toggler elements
   const $navbar = $(".navbar");
+  const $navbarToggler = $(".navbar-toggler");
+
+  // Function to handle background color change
+  function updateNavbarBackground() {
+    if (
+      $navbar.hasClass("scrolled") ||
+      $navbarToggler.attr("aria-expanded") === "true"
+    ) {
+      $navbar.addClass("navbar-white");
+    } else {
+      $navbar.removeClass("navbar-white");
+    }
+  }
 
   // Listen for scroll events
-  $(window).on("scroll", function () {
-    if ($(window).scrollTop() > 56) {
-      // Adjust the scroll value as needed
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 50) {
       $navbar.addClass("scrolled");
     } else {
       $navbar.removeClass("scrolled");
     }
+    updateNavbarBackground();
   });
 
-  // Add smooth scrolling to nav links
-  $(".nav-link").on("click", function (event) {
-    // Prevent default anchor click behavior
-    event.preventDefault();
-
-    // Get the target section from data attribute
-    var target = $(this).data("target");
-    var $target = $(target);
-
-    // Animate scroll
-    $("html, body").stop().animate(
-      {
-        scrollTop: $target.offset().top,
-      },
-      500,
-      "swing"
-    );
+  // Listen for navbar toggler click
+  $navbarToggler.click(function () {
+    updateNavbarBackground();
   });
+
+  // Initial check when the page loads
+  updateNavbarBackground();
 });
